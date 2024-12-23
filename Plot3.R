@@ -1,6 +1,6 @@
 source("Loading_data.R")
 head(df)
-png(filename = "/Users/anthonybonilla/Desktop/Anthony/DS/R/Plot3.png",
+png(filename = ".dataPlot3.png",
     width = 480, height = 480, units = "px")
 with(df,plot(Datetime,Sub_metering_1, xlab="", type="n", # plot initalized
      ylab = "Energy sub metering", xaxt="n"))
