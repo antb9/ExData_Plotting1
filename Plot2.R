@@ -1,6 +1,6 @@
 source("Loading_data.R")
 head(df)
-png(filename = "/Users/anthonybonilla/Desktop/Anthony/DS/R/Plot2.png",
+png(filename = ".data/Plot2.png",
     width = 480, height = 480, units = "px")
 plot(df$Datetime,df$Global_active_power, xlab="", type="l", 
      ylab = "Global Active Power", xaxt="n")
